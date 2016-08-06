@@ -8,7 +8,7 @@ namespace JiraClient;
 /**
  * JIRA OAuth client.
  *
- * For the first time, you have to be authorized and issued an access token by the service.
+ * For the first time, you have to be authorized and issued an access token by JIRA.
  * The steps are:
  *  1. Get a request token via <code>getRequestToken()</code>.
  *  2. Access the authorize url (you can get via <code>getAuthorizeUrl()</code>).
