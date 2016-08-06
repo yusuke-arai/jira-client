@@ -5,9 +5,18 @@ OAuth client library for JIRA.
 
 # Install
 
-Install via composer.
-
-`php composer.phar require zamec75/jira-client`
+To install via composer, add below to `composer.json`.
+```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/zamec75/jira-client"
+    }
+],
+"require": {
+    "zamec75/jira-client": "*"
+},
+```
 
 # Get an OAuth access token.
 
