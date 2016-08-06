@@ -1,0 +1,19 @@
+{
+    "name": "zamec75/jira-client",
+    "description": "JIRA OAuth client.",
+    "type": "library",
+    "license": "BSD2",
+    "authors": [
+        {
+            "name": "Yusuke Arai",
+            "email": "arai@zamec.org"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "autoload": {
+        "psr-4": { "JiraClient\\": "src/" }
+    }
+}
