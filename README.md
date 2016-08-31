@@ -10,11 +10,11 @@ To install via composer, add below to `composer.json`.
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/zamec75/jira-client"
+        "url": "https://github.com/yusuke-arai/jira-client"
     }
 ],
 "require": {
-    "zamec75/jira-client": "*"
+    "yusuke-arai/jira-client": "*"
 },
 ```
 

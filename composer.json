@@ -1,5 +1,5 @@
 {
-    "name": "zamec75/jira-client",
+    "name": "yusuke-arai/jira-client",
     "description": "JIRA OAuth client.",
     "type": "library",
     "license": "BSD2",
